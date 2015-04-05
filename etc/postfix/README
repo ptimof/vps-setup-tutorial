@@ -1,0 +1,14 @@
+# Database updates
+
+If you change any of the following files:
+
+    canonical
+    virtual
+    virtual-mailbox-domains
+    virtual-mailbox-users
+
+you will need to run:
+
+    sudo postmap /etc/postfix/FILENAME
+
+to update the corresponding database of FILENAME.db

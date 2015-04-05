@@ -1,0 +1,6 @@
+# See man 5 aliases for format
+# After editing, run "newaliases" to update /etc/aliases.db
+postmaster: webmaster@example.com
+root: webmaster@example.com
+www-data: webmaster@example.com
+petert: peter@example.com
